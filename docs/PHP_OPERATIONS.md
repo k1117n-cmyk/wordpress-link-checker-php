@@ -1,5 +1,7 @@
 # PHP版リンク検査の操作説明
 
+対象スクリプト：**1.0.0**（2026/11/18）。[更新履歴](../CHANGELOG.md)
+
 導入後に参照する、設定・判定・通知・ログ・停止方法の説明です。初めて利用する場合は[導入マニュアル](INSTALLATION_GUIDE.md)から進めてください。検査本体はPHP CLI、起動用スクリプトは `/bin/sh` を使います。
 
 ## 実行環境
@@ -10,6 +12,18 @@
 - PHP/cURLから使用できるCA証明書とsendmail互換コマンド。
 
 Composerや追加のPHPパッケージは不要です。PHPの `--check` で不足を確認します。Web側のPHP設定変更や、必要機能を省く自動切替は行いません。
+
+## スクリプトのバージョン確認
+
+配置先で、PHP本体の `--version` を実行します。PHPパスは利用環境に置き換えてください。
+
+```sh
+/PATH/TO/php bin/check_wordpress_links.php --version
+```
+
+表示は `WordPressLinkCheck-PHP 1.0.0` です。設定ファイルは不要で、検査通信・メール送信・ファイル作成は行いません。このオプションはPHP本体へ直接指定します。
+
+`--check` の実行環境情報、`status.json` の `script_version`、`summary.md`、PHP実行ログ、結果メールにも版番号を記録します。HTTP User-Agentは `WordPressLinkCheck-PHP/1.0.0` です。PHP自体の版や、初回受付記録の `version: 2`（保存形式の番号）とは別です。過去に保存した結果の版情報を後から書き換えることはありません。
 
 ## 設定
 
