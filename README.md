@@ -1,5 +1,7 @@
 # WordPressリンク切れ検査（PHP版）
 
+スクリプトバージョン：**1.0.0**（2026/11/18）。[更新履歴](CHANGELOG.md)
+
 ![公開内容：説明書・設定例](https://img.shields.io/badge/%E5%85%AC%E9%96%8B%E5%86%85%E5%AE%B9-%E8%AA%AC%E6%98%8E%E6%9B%B8%E3%83%BB%E8%A8%AD%E5%AE%9A%E4%BE%8B-blue)
 [![PHP CLI：8.4以上](https://img.shields.io/badge/PHP%20CLI-8.4%E4%BB%A5%E4%B8%8A-777BB4)](docs/INSTALLATION_GUIDE.md#1-用意するもの)
 [![SSH・cron：必須](https://img.shields.io/badge/SSH%E3%83%BBcron-%E5%BF%85%E9%A0%88-005A9C)](docs/INSTALLATION_GUIDE.md#1-用意するもの)
