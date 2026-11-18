@@ -2,6 +2,7 @@
 *
 !/.gitignore
 !/README.md
+!/CHANGELOG.md
 !/docs/
 !/docs/INSTALLATION_GUIDE.md
 !/docs/MANUAL_TEST_PROCEDURE.md
