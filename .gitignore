@@ -1,0 +1,10 @@
+# Public documentation repository: only these files may be added.
+*
+!/.gitignore
+!/README.md
+!/docs/
+!/docs/INSTALLATION_GUIDE.md
+!/docs/MANUAL_TEST_PROCEDURE.md
+!/docs/PHP_OPERATIONS.md
+!/conf/
+!/conf/linkcheck_php_example.json

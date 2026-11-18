@@ -1,0 +1,25 @@
+{
+  "site_id": "example",
+  "site_url": "https://example.com/",
+  "collection": "sitemap",
+  "sitemap_urls": ["https://example.com/wp-sitemap.xml"],
+  "additional_urls": [],
+  "allowed_origins": [],
+  "allowed_path_prefixes": ["/"],
+  "exclude_patterns": [],
+  "soft_404_patterns": [],
+  "check_images": false,
+  "crawl_internal": false,
+  "connect_timeout": 5,
+  "request_timeout": 20,
+  "request_interval": 1,
+  "max_runtime": 7200,
+  "max_pages": 5000,
+  "max_links": 50000,
+  "output_dir": "reports/linkcheck_php",
+  "mail": {
+    "to": "CHANGE_ME@example.com",
+    "from": "CHANGE_ME@example.com",
+    "sendmail_path": "/usr/sbin/sendmail"
+  }
+}
